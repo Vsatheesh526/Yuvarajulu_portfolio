@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+<div class="loader-wrapper">
+    <div class="loader">
+      <div class="loader-spinner"></div>
+      <div class="loader-text">Loading...</div>
+    </div>
+  </div>
+  <nav class="navbar navbar-dark bg-dark fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#home">Portfolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Explore More</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#about">AboutME & Experience</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#Skills">MY Skills</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Know More
+              </a>
+              <ul class="dropdown-menu dropdown-menu-dark">
+                <li><a class="dropdown-item" href="#Project">Project</a></li>
+                <li><a class="dropdown-item" href="#Qualifications">Qualifications</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Resume</a></li>
+              </ul>
+            </li>
+          </ul>
+          <hr>
+          <li class="nav-item" style="list-style: none;">
+            <a class="nav-link active" aria-current="page" href="#contact">Lets Talk!</a>
+          </li>
+        </div>
+        
+      </div>
+    </div>
+  </nav>
+  <section class="home" id="home">
+    <div class="homemain">
+      <div class="homeleft">
+        <div class="detiles">
+          <h3 style="font-style: oblique;font-family:'Times New Roman', Times, serif;"><u>Yuvarajulu .K</u></h3>
+          <span id="typing"></span>
+          <br>
+          <p style="font-family:'Courier New', Courier, monospace;">Having around 3+ Years of experience in Hyperion Essbase, Hyperion Planning and having knowledge in UNIX.Experience in Oracle Hyperion Essbase, Oracle Hyperion Planning, Oracle Hyperion Financial Reporting.
+          </p>
+          <button class="btu btu1"> <a href="#cont" style="text-decoration: none;color: black;">HireMe</a></button>
+          <button class="btu" ><a href="#aboutme" style="text-decoration: none;">More</a></button>
+          <hr>
+          <ul style="list-style:circle;font-family:Arial, Helvetica, sans-serif;">
+            <li>Skilled in calc scripts, Groovy, MaxL scripts, Esscmd Scripts, Load rules, and Essbase Excel-Add-in.</li>
+            <li>Having experience in Dimension Building, Data loading and calculation scripts.</li>
+          </ul>
+          <div class="socialmedia">
+              <a href="https://www.linkedin.com/in/yuvarajulu-kadimpati-406182191"><img src="LinkedIn-Logo.wine.png" class="logo" alt="linkdin"></a>
+              <a href=" mailto:yuvarajulu.kadimpati@gmail.com"><img src="email.png"class="logo" alt="mail"></a>
+              <a href="https://github.com/yuvarajgitnew"><img src="github-6980894_960_720.webp"class="logo" alt="github"></a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="homeright">
+        <img src="profile.jpg" alt="" class="profile">
+      </div>
+    </div>
+  </section>
+  <section class="aboutme" id="about">
+    <div class="aboutmain" id="aboutme">
+      <div class="aboutdetiles">
+        <h5>AboutME & Experience</h5>
+        <hr>
+        <p>Working with users to ensure that development efforts are meeting the user’s needs. 
+          Ensure that all critical issues are communicated to the Project Manager for resolution in a timely manner.
+          Possesses excellent analytical, problem-solving and learning skills as well as a keen interest in the emerging technologies.
+          </p>
+      </div>
+      <div class="aboutsub">
+        <div class="aboutleft">
+          <ul style="list-style: circle;gap: 5px;">
+            <li>Having Experience in calc scripts, Maxl scripts, Esscmd Scripts, Load rules, Reports with Essbase Excel-Add-in.</li>
+            <li>Well developed Problem-solving capabilities and strong organizational skills.</li>
+            <li>Work with client to help resolve issues while developing reports.</li>
+            <li>Having experience in Batch processes and automated process.</li>
+            <li>Design and Developed excel templates user to input the data and retrieve the data.</li>
+          </ul>
+        </div>
+        <div class="aboutright">
+          <img src="AboutME.png" alt="about" class="aboutimage">
+        </div>
+      </div>
+      
+    </div>
+  </section>
+
+  <section class="skills" id="Skills">
+      <div class="skills-container">
+        <h2 class="skills-title">My Skills</h2>
+        <hr>
+        <div class="skills-tabs">
+          <button class="tab active" onclick="showTab('reporting')">Reporting Tools</button>
+          <button class="tab" onclick="showTab('os')">Operating Systems</button>
+          <button class="tab" onclick="showTab('db')">Database Systems</button>
+          <button class="tab" onclick="showTab('languages')">Languages</button>
+        </div>
+        
+        <div class="skills-content">
+          <div id="reporting" class="tab-content active">PBCS, EPBCS, FCCS, EDM, Hyperion Essbase 11.x, Hyperion Planning 11.x, Hyperion Financial Reporting 11.x, Hyperion Shared Services 11.x.</div>
+          <div id="os" class="tab-content">Windows / Unix</div>
+          <div id="db" class="tab-content">Oracle 11g / SQL Server 2019</div>
+          <div id="languages" class="tab-content">English, Telugu</div>
+        </div>
+    </div>
+
+  </section>
+
+  <section class="edu" id="Qualifications">
+
+    <div class="education-section">
+      <div class="education-container">
+        <h2 class="section-title">My Education</h2>
+        <p class="section-subtitle">Academic qualifications and achievements</p>
+        
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <div class="education-card">
+                <div class="education-header">
+                  <span class="education-level">Graduation</span>
+                  <span class="education-year">2017 - 2021</span>
+                </div>
+                <div class="education-body">
+                  <h3 class="degree">B.Tech in Computer Science & Engineering</h3>
+                  <p class="institution">
+                    <i class="fas fa-university"></i>
+                    Jawaharlal Nehru Technological University
+                  </p>
+                  <div class="education-footer">
+                    <div class="gpa-badge">
+                      <i class="fas fa-star"></i>
+                      <span>CGPA: 8.2/10</span>
+                    </div>
+                    <div class="location">
+                      <i class="fas fa-map-marker-alt"></i>
+                      <span>Hyderabad, India</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Add more timeline items here if needed -->
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="proj" id="Project">
+
+    <div class="project-explorer">
+      <div class="project-container">
+        <div class="project-card">
+          <div class="project-header">
+            <div class="client-logo">
+              <img src="hsbc.png" alt="HSBC Logo">
+            </div>
+            <div class="project-info">
+              <h3>HSBC Bank</h3>
+              <p class="duration">Oct 2022 - Present</p>
+              <p class="position">Hyperion Developer</p>
+            </div>
+          </div>
+          
+          <div class="project-content">
+            <div class="project-image">
+              <img src="hsbc2.png" alt="Banking Financial Management">
+            </div>
+            <div class="project-details">
+              <h4>Banking Financial Management Solution</h4>
+              <p class="description">Implemented a robust financial management solution for HSBC Bank, optimizing consolidation, reporting, and planning capabilities across global financial operations using Hyperion Financial Management (HFM) and Essbase.</p>
+              
+              <div class="responsibilities">
+                <h5>Key Responsibilities:</h5>
+                <ul>
+                  <li>Hyperion Planning development (Webforms, Calculation Manager Rules)</li>
+                  <li>Dimension and member attribute implementation</li>
+                  <li>Groovy scripting and REST API configurations</li>
+                  <li>Essbase Rules files for data loads</li>
+                  <li>Financial reporting with Smart View and Excel Add-Ins</li>
+                </ul>
+              </div>
+              
+              <div class="tech-tags">
+                <span>Hyperion</span>
+                <span>Essbase</span>
+                <span>Groovy</span>
+                <span>REST API</span>
+                <span>Financial Reporting</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="project-card">
+          <div class="project-header">
+            <div class="client-logo">
+              <img src="Bank-of-Baroda.png" alt="Bank of Baroda Logo">
+            </div>
+            <div class="project-info">
+              <h3>Bank of Baroda</h3>
+              <p class="duration">Sep 2021 - Sep 2022</p>
+              <p class="position">Data Engineering Associate</p>
+            </div>
+          </div>
+          
+          <div class="project-content">
+            <div class="project-image">
+              <img src="bofb.avif">
+            </div>
+            <div class="project-details">
+              <h4>Hyperion Support & Development</h4>
+              <p class="description">Provided comprehensive Hyperion and Planning application support for one of India's leading public sector banks, enhancing their financial reporting and planning capabilities.</p>
+              
+              <div class="responsibilities">
+                <h5>Key Responsibilities:</h5>
+                <ul>
+                  <li>Hyperion application support and troubleshooting</li>
+                  <li>Calc script modification and testing</li>
+                  <li>Metadata loading using Outline load utility</li>
+                  <li>Automation scripts in MaxL</li>
+                  <li>Financial report design and scheduling</li>
+                </ul>
+              </div>
+              
+              <div class="tech-tags">
+                <span>Hyperion</span>
+                <span>Essbase</span>
+                <span>MaxL</span>
+                <span>Financial Reporting</span>
+                <span>Metadata Management</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </section>
+
+<section>
+    <div class="profile-container">
+        <div class="profile-header">
+            <h1>Professional Profile</h1>
+            <div class="profile-stats">
+                <div class="stat-item">
+                    <i class="fab fa-linkedin stat-icon linkedin"></i>
+                    <div>
+                        <div class="stat-count">500+</div>
+                        <div class="stat-label">LinkedIn Connections</div>
+                    </div>
+                </div>
+                <div class="stat-item">
+                    <i class="fab fa-github stat-icon github"></i>
+                    <div>
+                        <div class="stat-count">20+</div>
+                        <div class="stat-label">GitHub Repositories</div>
+                    </div>
+                </div>
+                <div class="stat-item">
+                    <i class="fas fa-briefcase stat-icon experience"></i>
+                    <div>
+                        <div class="stat-count">3+ Years</div>
+                        <div class="stat-label">SE Experience</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="gallery-section">
+            <h2 class="gallery-title">Employment History</h2>
+            <div class="slider-container">
+                <div class="slider">
+                    <!-- Accenture Slide -->
+                    <div class="slide">
+                        <h3>Professional Experience</h3>
+                        <table class="employment-history">
+                            <thead>
+                                <tr>
+                                    <th>Date</th>
+                                    <th>Company Name</th>
+                                    <th>Role</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Sept 2021–Sept 2022</td>
+                                    <td>Accenture Solutions India Pvt Ltd</td>
+                                    <td>Data Engineering Associate</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <div class="company-highlights">
+                            <h4>Key Responsibilities & Achievements:</h4>
+                            <ul>
+                                <li>Designed and implemented data pipelines for enterprise clients</li>
+                                <li>Optimized ETL processes reducing processing time by 30%</li>
+                                <li>Collaborated with cross-functional teams to deliver data solutions</li>
+                                <li>Received recognition for innovative problem-solving approaches</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <!-- Appiltech Solution Slide -->
+                    <div class="slide">
+                        <h3>Professional Experience</h3>
+                        <table class="employment-history">
+                            <thead>
+                                <tr>
+                                    <th>Date</th>
+                                    <th>Company Name</th>
+                                    <th>Role</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Oct 2022 - Present</td>
+                                    <td>Appiltech Solution Pvt Ltd</td>
+                                    <td>Hyperion Developer</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <div class="company-highlights">
+                            <h4>Key Responsibilities & Achievements:</h4>
+                            <ul>
+                                <li>Developed and maintained Hyperion applications for financial reporting</li>
+                                <li>Automated monthly reporting processes saving 20+ hours per cycle</li>
+                                <li>Implemented data validation checks improving accuracy by 15%</li>
+                                <li>Mentored junior developers in Hyperion best practices</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <button class="slider-btn next">&gt;</button>
+                <div class="slider-nav">
+                    <div class="slider-dot active"></div>
+                    <div class="slider-dot"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="talk" id="cont">
+
+  <div class="lets-talk-section" id="contact">
+    <div class="contact-container">
+      <div class="contact-header">
+        <h2>Let's Talk</h2>
+        <div class="animated-underline"></div>
+        <p class="subtitle">Interested in working together? Have a project in mind? Let's connect!</p>
+      </div>
+      
+      <div class="contact-content">
+        <div class="contact-info">
+          <div class="info-card">
+            <div class="icon-circle">
+              <i class="fas fa-user"></i>
+            </div>
+            <h3>About Me</h3>
+            <p>I'm a passionate developer with expertise in Hyperion solutions and data engineering, currently working with global financial institutions.</p>
+          </div>
+          
+          <div class="info-card">
+            <div class="icon-circle">
+              <i class="fas fa-envelope"></i>
+            </div>
+            <h3>Email Me</h3>
+            <p>yuvarajulu.kadimpati@gmail.com</p>
+          </div>
+          
+          <div class="info-card">
+            <div class="icon-circle">
+              <i class="fas fa-phone-alt"></i>
+            </div>
+            <h3>Call Me</h3>
+            <p>+91-9182303717</p>
+          </div>
+        </div>
+        
+        <div class="contact-form-container">
+          <form id="contactForm" class="contact-form" action="https://formspree.io/f/myzedokj" method="POST">
+            <div class="form-group floating-label">
+              <input type="text" id="name" name="name" required>
+              <label for="name">Your Name</label>
+              <div class="underline"></div>
+            </div>
+            
+            <div class="form-group floating-label">
+              <input type="email" id="email" name="email" required>
+              <label for="email">Your Email</label>
+              <div class="underline"></div>
+            </div>
+            
+            <div class="form-group floating-label">
+              <input type="text" id="subject" name="subject" required>
+              <label for="subject">Subject</label>
+              <div class="underline"></div>
+            </div>
+            
+            <div class="form-group floating-label">
+              <textarea id="message" name="message" rows="4" required></textarea>
+              <label for="message">Your Message</label>
+              <div class="underline"></div>
+            </div>
+            
+            <div class="form-footer">
+              <button type="submit" class="submit-btn">
+                <span>Send Message</span>
+                <i class="fas fa-paper-plane"></i>
+              </button>
+              <div class="social-links">
+                <a href="https://www.linkedin.com/in/yuvarajulu-kadimpati-406182191" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/yuvarajgitnew " class="social-icon"><i class="fab fa-github"></i></a>
+                <a href="https://x.com/Yuvarajkm77" class="social-icon"><i class="fab fa-twitter"></i></a>
+              </div>
+            </div>
+          </form>
+          
+          <div id="successMessage" class="success-message">
+            <i class="fas fa-check-circle"></i>
+            <h3>Thank You!</h3>
+            <p>Your message has been sent successfully. I'll get back to you soon.</p>
+            <button id="sendAnother" class="outline-btn">Send Another Message</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
